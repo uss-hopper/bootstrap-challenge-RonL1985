@@ -3,6 +3,7 @@
 	<head>
 
 		<meta charset="UTF-8">
+
 		<title>Bootstrap Challenge</title>
 		<link href="http://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 		<link href="./styles.css" rel="stylesheet" type="text/css">
