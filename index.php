@@ -45,6 +45,22 @@
 				</div>
 			</nav>
 		</div>
+			<!--JUMBBOTRON-->
+		<div class="jumbotron container intro mb-5 mt-5 p-5 border">
+			<h1 class="display-3">Intro Section</h1>
+			<p class="lead">Some intro text here</p>
+
+			<hr class="my-2">
+			<a class="btn btn-lg btn-primary " href="#" role="button">Learn More</a>
+		</div>
+
+		<!--INFO SECTION-->
+		<div class="info container-fluid p-5 d-flex flex-wrap justify-content-space-between">
+
+			<div class="image-wrapper float-left">
+				<img class="" src="burger-king.png" alt="logo">
+			</div>
+
 
 			</nav>
 		</div>
