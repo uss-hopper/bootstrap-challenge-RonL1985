@@ -61,8 +61,48 @@
 				<img class="" src="burger-king.png" alt="logo">
 			</div>
 
+			<div class="content-wrapper mt-3">
+				<p class="">Spicy jalapeno bacon ipsum dolor amet cupim sirloin beef ribs porchetta meatloaf, short ribs fatback sausage. Pork loin pig pork ball tip chuck tail meatball jerky fatback corned beef beef turducken landjaeger bacon pastrami. Alcatra tail pig, bacon burgdoggen landjaeger meatloaf meatball pastrami ham hock. Pork loin capicola rump cow alcatra pastrami andouille, ground round ham cupim turkey. Fatback bacon burgdoggen pastrami strip steak rump boudin turkey pork chop biltong corned beef picanha beef brisket tail. Meatloaf turkey buffalo sausage turducken drumstick jerky ribeye prosciutto tail pork chop bacon kevin flank shank. Frankfurter tenderloin ball tip landjaeger.</p>
+				<p>Turkey meatloaf brisket corned beef short ribs. Picanha filet mignon strip steak burgdoggen jowl. Hamburger meatball burgdoggen boudin biltong drumstick, ham ribeye landjaeger. Ball tip sausage bacon, shankle t-bone leberkas short loin corned beef prosciutto chicken bresaola turkey.</p>
+			</div>
+		</div>
 
-			</nav>
+		<!--IMAGE SECTION-->
+		<div class="container card-deck col-12 mt-5 pb-5 d-flex flex-wrap justify-content-center align-items-center">
+
+			<div class="col-3 card border-0">
+				<img class="round-circle border ml-auto mr-auto mt-5 mb-4" src="coca-cola.png" alt="logo">
+				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
+					<p class="p-2 text-center text-muted font-weight-bold">Bacon pork chop burgdoggen biltong corned beef picanha beef brisket tail. Meatloaf turkey buffalo sausage turducken drumstick jerky.</p>
+				</div>
+			</div>
+
+			<div class="col-3 card border-0">
+				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="kfc.png" alt="logo"
+				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
+					<p class="p-2 text-center text-muted font-weight-bold">Bacon pork chop burgdoggen biltong corned beef picanha beef brisket tail. Meatloaf turkey buffalo sausage turducken drumstick jerky.</p>
+				</div>
+			</div>
+
+			<div class="col-3 card border-0">
+				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="pepsi.png" alt="logo">
+				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
+					<p class="p-2 text-center text-muted font-weight-bold">Bacon pork chop burgdoggen biltong corned beef picanha beef brisket tail. Meatloaf turkey buffalo sausage turducken drumstick jerky.</p>
+				</div>
+			</div>
+
+			<div class="col-3 card border-0">
+				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="starbucks.png" alt="logo">
+				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
+					<p class="p-2 text-center text-muted font-weight-bold">Bacon pork chop burgdoggen biltong corned beef picanha beef brisket tail. Meatloaf turkey buffalo sausage turducken drumstick jerky.</p>
+				</div>
+			</div>
+		</div>
+
+		<!--FOOTER-->
+		<div class="container-fluid mt-5 bg-dark d-flex justify-content-center">
+			<p class="mt-5 mb-5 text-secondary h4 text-center">turducken drumstick jerky ribeye prosciutto tail</p>
+
 		</div>
 	</body>
 </html>
