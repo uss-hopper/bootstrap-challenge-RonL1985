@@ -59,7 +59,7 @@
 		<div class="info container-fluid p-5 d-flex flex-wrap justify-content-space-between">
 
 			<div class="image-wrapper float-left">
-				<img class="" src="burger-king.png" alt="logo">
+				<img class="" src="img/Bill-Murray.jpg" alt="logo">
 			</div>
 
 			<div class="content-wrapper mt-3">
@@ -72,28 +72,28 @@
 		<div class="container card-deck col-12 mt-5 pb-5 d-flex flex-wrap justify-content-center align-items-center">
 
 			<div class="col-3 card border-0">
-				<img class="round-circle border ml-auto mr-auto mt-5 mb-4" src="coca-cola.png" alt="logo">
+				<img class="round-circle border ml-auto mr-auto mt-5 mb-4" src="BillMurray_black%20and%20white.jpg" alt="logo">
 				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
 					<p class="p-2 text-center text-muted font-weight-bold">Bacon beef turkey sausage.</p>
 				</div>
 			</div>
 
 			<div class="col-3 card border-0">
-				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="kfc.png" alt="logo"
+				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="BillMurray_black%20and%20white.jpg" alt="logo"
 				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
 					<p class="p-2 text-center text-muted font-weight-bold">Bacon beef. turkey sausage.</p>
 				</div>
 			</div>
 
 			<div class="col-3 card border-0">
-				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="pepsi.png" alt="logo">
+				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="BillMurray_black%20and%20white.jpg" alt="logo">
 				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
 					<p class="p-2 text-center text-muted font-weight-bold">Bacon beef turkey sausage.</p>
 				</div>
 			</div>
 
 			<div class="col-3 card border-0">
-				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="starbucks.png" alt="logo">
+				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="BillMurray_black%20and%20white.jpg" alt="logo">
 				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
 					<p class="p-2 text-center text-muted font-weight-bold">Bacon beef turkey sausage.</p>
 				</div>
