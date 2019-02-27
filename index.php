@@ -74,35 +74,39 @@
 			<div class="col-3 card border-0">
 				<img class="round-circle border ml-auto mr-auto mt-5 mb-4" src="BillMurray_black%20and%20white.jpg" alt="logo">
 				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
-					<p class="p-2 text-center text-muted font-weight-bold">Bacon beef turkey sausage.</p>
+					<p class="p-2 text-center text-muted font-weight-bold">And the good thing about dogs... is they got different dogs for
+					different people. Like pit bulls. The dog of dogs.</p>
 				</div>
 			</div>
 
 			<div class="col-3 card border-0">
 				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="BillMurray_black%20and%20white.jpg" alt="logo"
 				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
-					<p class="p-2 text-center text-muted font-weight-bold">Bacon beef. turkey sausage.</p>
+					<p class="p-2 text-center text-muted font-weight-bold">And the good thing about dogs... is they got different dogs for
+						different people. Like pit bulls. The dog of dogs.</p>
 				</div>
 			</div>
 
 			<div class="col-3 card border-0">
 				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="BillMurray_black%20and%20white.jpg" alt="logo">
 				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
-					<p class="p-2 text-center text-muted font-weight-bold">Bacon beef turkey sausage.</p>
+					<p class="p-2 text-center text-muted font-weight-bold">And the good thing about dogs... is they got different dogs for
+						different people. Like pit bulls. The dog of dogs.</p>
 				</div>
 			</div>
 
 			<div class="col-3 card border-0">
 				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="BillMurray_black%20and%20white.jpg" alt="logo">
 				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
-					<p class="p-2 text-center text-muted font-weight-bold">Bacon beef turkey sausage.</p>
+					<p class="p-2 text-center text-muted font-weight-bold">And the good thing about dogs... is they got different dogs for
+						different people. Like pit bulls. The dog of dogs.</p>
 				</div>
 			</div>
 		</div>
 
 		<!--FOOTER-->
 		<div class="container-fluid mt-5 bg-dark d-flex justify-content-center">
-			<p class="mt-5 mb-5 text-secondary h4 text-center">Hamburger turkey sausage bacon.</p>
+			<p class="mt-5 mb-5 text-secondary h4 text-center"></p>
 
 		</div>
 	</body>
