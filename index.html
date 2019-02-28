@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-
-		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Bootstrap Challenge</title>
 
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link href="./styles.css" rel="stylesheet" type="text/css">
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<link href="./style.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="./normalize.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Exo:100,200,400|Michroma|Montserrat:100,200,300,400|Raleway:100,200,300,400|Titillium+Web:200,300,400" rel="stylesheet">
 
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -17,111 +18,94 @@
 	</head>
 
 	<body>
-		<!--HEADER-->
-		<div class="container mb-2 mt-4 border bg-light">
+		<header>
+			<div class="container px-0 px-sm-3 mt-sm-3">
+				<nav class="navbar navbar-expand-sm navbar-light bg-light border rounded">
+					<a class="navbar-brand" href="#">Bootstrap Challenge</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
-
-
-
-			<nav class="navbar navber-light navbar -expand-lg-navbar-fixed-top ">
-				<a class="navbar-brand" href="#">BootStrap Challenge</a>
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav nav-pills flex-column flex-sm-row" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav nav-pills flex-column flex-sm-row" href="#">link A</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav nav-pills flex-column flex-sm-row" href="#">link B</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav nav-pills flex-column flex-sm-row" href="#">link C</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav nav-pills flex-column flex-sm-row" href="#">Link D</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-
-
-
-
-
-
-
-
-
-
-		</div>
-			<!--JUMBBOTRON-->
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Link</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Link 2</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Link 3</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!--JUMBOTRON-->
 		<div class="jumbotron container intro mb-5 mt-5 p-5 border">
-			<h1 class="display-3">Intro Section</h1>
-			<h3 class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information</h3>
+			<h1 class="display-3">Hello, world!</h1>
+			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+
 			<hr class="my-2">
 			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
 			<a class="btn btn-lg btn-primary " href="#" role="button">Learn More</a>
-
 		</div>
 
 		<!--INFO SECTION-->
 		<div class="info container-fluid p-5 d-flex flex-wrap justify-content-space-between">
 
-			<div class="image-wrapper float-left">
-				<img class="" src="img/Bill-Murray.jpg" alt="logo">
-			</div>
-
-			<div class="content-wrapper mt-3">
-				<p class="">Yeah, I like animals better than people sometimes... Especially dogs.
-					Dogs are the best. Every time you come home, they act like they haven't seen you in a year.
-					And the good thing about dogs... is they got different dogs for different people. Like pit bulls.
-					The dog of dogs. Pit bull can be the right man's best friend... or the wrong man's worst enemy.
-					You going to give me a dog for a pet, give me a pit bull. Give me... Raoul. Right, Omar? Give me Raoul.</p>
-
-			</div>
-		</div>
+			<section class="bg-secondary py-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3">
+							<img class="img-fluid d-block mx-auto mb-3 mb-lg-0" src="img/Bill-Murray.jpg" alt="bill murray">
+						</div>
+						<div class="col-lg-9 text-justify">
+							<p class="lead text-white">Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people. Like pit bulls. The dog of dogs. Pit bull can be the right man's best friend... or the wrong man's worst enemy. You going to give me a dog for a pet, give me a pit bull. Give me... Raoul. Right, Omar? Give me Raoul.</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
 		<!--IMAGE SECTION-->
 		<div class="container card-deck col-12 mt-5 pb-5 d-flex flex-wrap justify-content-center align-items-center">
 
 			<div class="col-3 card border-0">
-				<img class="round-circle border ml-auto mr-auto mt-5 mb-4" src="./img/BillMurray_black%20and%20white.jpg" alt="logo">
+				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="img/BillMurray_black%20and%20white.jpg" alt="stick figure">
 				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
-					<p class="p-2 text-center text-muted font-weight-bold">And the good thing about dogs... is they got different dogs for
-					different people. Like pit bulls. The dog of dogs.</p>
+					<p class="p-2 text-center text-muted font-weight-bold">And the good thing about dogs... is they got different dogs for different people. Like pit bulls. The dog of dogs.</p>
 				</div>
 			</div>
 
 			<div class="col-3 card border-0">
-				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="./img/BillMurray_black%20and%20white.jpg" alt="logo"
+				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="img/BillMurray_black%20and%20white.jpg" alt="stick figure">
 				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
-					<p class="p-2 text-center text-muted font-weight-bold">And the good thing about dogs... is they got different dogs for
-						different people. Like pit bulls. The dog of dogs.</p>
+					<p class="p-2 text-center text-muted font-weight-bold">And the good thing about dogs... is they got different dogs for different people. Like pit bulls. The dog of dogs.</p>
 				</div>
 			</div>
 
 			<div class="col-3 card border-0">
-				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="././img/BillMurray_black%20and%20white.jpg" alt="logo">
+				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="img/BillMurray_black%20and%20white.jpg" alt="stick figure">
 				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
-					<p class="p-2 text-center text-muted font-weight-bold">And the good thing about dogs... is they got different dogs for
-						different people. Like pit bulls. The dog of dogs.</p>
+					<p class="p-2 text-center text-muted font-weight-bold">And the good thing about dogs... is they got different dogs for different people. Like pit bulls. The dog of dogs.</p>
 				</div>
 			</div>
 
 			<div class="col-3 card border-0">
-				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="./img/BillMurray_black%20and%20white.jpg" alt="logo">
+				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="img/BillMurray_black%20and%20white.jpg" alt="stick figure">
 				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
-					<p class="p-2 text-center text-muted font-weight-bold">And the good thing about dogs... is they got different dogs for
-						different people. Like pit bulls. The dog of dogs.</p>
+					<p class="p-2 text-center text-muted font-weight-bold">And the good thing about dogs... is they got different dogs for different people. Like pit bulls. The dog of dogs.</p>
 				</div>
 			</div>
 		</div>
 
 		<!--FOOTER-->
 		<div class="container-fluid mt-5 bg-dark d-flex justify-content-center">
-			<p class="mt-5 mb-5 text-secondary h4 text-center"></p>
-
+			<p class="mt-5 mb-5 text-secondary h4 text-center">Bill Murray Footer</p>
 		</div>
 	</body>
 </html>
